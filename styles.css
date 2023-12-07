@@ -43,7 +43,7 @@ button{
     text-decoration: none;
 }
 button:hover{
-    box-shadow: 10px 0px 20px 0px rgba(116, 49, 226, 0.25);
+    box-shadow: 0px 10px 20px 0px rgba(116, 49, 226, 0.25);
     letter-spacing: 4px;
     transition: .3s;
 }
@@ -74,5 +74,8 @@ h5{
     }
     .back{
         margin: 25% 0;
+    }
+    .outbox{
+        margin: 15% 0;
     }
 }
