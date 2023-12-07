@@ -1,0 +1,79 @@
+@font-face {
+    font-family: popr;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: popb;
+    src: url(fonts/Poppins-SemiBold.ttf);
+}
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: popb;
+}
+.outbox{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0;
+}
+.loginbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.loginbox button{
+    width: 319px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+button{
+    background: linear-gradient(180deg, #7F3EE9 0%, #5F17D3 100%);
+}
+.loginbox a{
+    text-decoration: none;
+}
+button:hover{
+    box-shadow: 10px 0px 20px 0px rgba(116, 49, 226, 0.25);
+}
+
+
+
+
+/* CONTENTS */
+h5{
+    color: grey;
+}
+.back{
+    text-align: center;
+    margin: 5% 0;
+}
+.back a{
+    color: grey;
+    text-decoration: none;
+}
+.back a:hover{
+    color: rgb(255, 0, 0);
+}
+.contents{
+    text-align: center;
+    margin: 0 25%;
+}
+
+@media (max-width: 768px) {
+    .contents{
+        margin: 20% 5%;
+    }
+    .back{
+        margin: 25% 0;
+    }
+}
