@@ -44,10 +44,9 @@ button{
 }
 button:hover{
     box-shadow: 10px 0px 20px 0px rgba(116, 49, 226, 0.25);
+    letter-spacing: 4px;
+    transition: .3s;
 }
-
-
-
 
 /* CONTENTS */
 h5{
