@@ -164,7 +164,6 @@ h5{
   .msgform{
     display: flex;
     justify-content: center;
-
   }
   input{
     width: 350px;
@@ -212,6 +211,13 @@ h5{
     textarea{
         width: 338px;
         height: 100px;
+    }
+    .msgform{
+        margin: 0%;
+    }
+    .back{
+        text-align: center;
+        margin: 20% 0 10% 0;
     }
 
 }
