@@ -167,13 +167,15 @@ h5{
 
   }
   input{
-    width: 346px;
+    width: 350px;
     padding: 6px 20px;
     border:1px solid rgba(0, 0, 0, 0.082);
   }
   textarea{
     border:1px solid rgba(0, 0, 0, 0.082);
     padding: 6px 20px;
+    width: 350px;
+    height: 200px;
   }
   label{
     font-size: 14px;
@@ -198,6 +200,10 @@ h5{
     }
     input{
         width: 338px;
+    }
+    textarea{
+        width: 338px;
+        height: 100px;
     }
 
 }
