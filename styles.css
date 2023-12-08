@@ -186,7 +186,7 @@ h5{
   }
   
 
-@media (max-width: 768px) {
+@media (max-width: 425px) {
     .contents{
         margin: 20% 5%;
     }
