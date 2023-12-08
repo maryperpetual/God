@@ -38,7 +38,7 @@
 .outbox{
     display: flex;
     justify-content: center;
-    margin: 3% 0;
+    margin: 5% 0;
 }
 .loginbox{
     display: flex;
@@ -204,7 +204,7 @@ h5{
         margin: 25% 0;
     }
     .outbox{
-        margin: 15% 0;
+        margin: 25% 0;
     }
     input{
         width: 338px;
